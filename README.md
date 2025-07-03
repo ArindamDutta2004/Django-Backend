@@ -96,3 +96,11 @@ cd frontend
 npm install
 npm start
 ```
+## 🔐 Security Notes
+```base
+All file downloads are guarded by encrypted, time-sensitive links.
+
+Only Client Users can access download endpoints.
+
+File types are validated during upload (Ops only: .pptx, .docx, .xlsx).
+```
